@@ -1,4 +1,5 @@
 //Question No. 1 - Difference between “ == “ and “ === “ operators.
+
 // --> ("==") and ("===") both are comparison operators. They both are used to check the condition that the given values are equal or not but the only difference between them is that ("==") operator only checks if the value is equal whereas ("===") operator also checks the datatype of that particular value.  
 // For Ex :
 //(i). 
@@ -17,7 +18,9 @@
                     console.log("a & b are not equal");
             }
 
+
 //Question No. 2 -  What are the differences between var, let and const?
+
 // --> Difference between var, let and const are as follows : 
 // (i). var - var is a keyword in JS. It is also known as Variable Keyword. var has a function or global scope. In var, value can be re-assigned and re-declared. It is used whenever a local or global variable is required.
 // for Ex :
@@ -38,15 +41,34 @@
                 // num2 = 245; value cannot be re-assinged
                 console.log(num2);
 
+
 //Question No. 3 -  What is execution context?
+
+// -->When the JavaScript engine scans a script file, it makes an environment called the Execution Context that handles the entire transformation and execution of the code.
+// There are two types of execution contexts : global and function. The global execution context is created when a JavaScript first starts to run, and it represents the global scope in JavaScript. A function execution context is created whenever a function is called, representing the function's local scope.
+// There are two phases of The Javascript Execution Context : Creation phase and Execution phase.
+
+
 //Question No. 4 -  What is creation phase and execution phase?
-// --> Execution phase: In this stage the code will be executed means all the functions which are written will be executed.
+
+// --> Creation Phase: This is the first phase of Code Execution in JS and it has four steps which are as follows :-
+// (i). Memory Space Allocation - All the variables will get memory but will not be initialized means their value will not be given and it will be undefined, but functions will get their value or definition at the time of memory allocation only. Memory is allocated inside the Call Stack with the help of var, let and const keywords which allocates the memory globally, locally or in blocks.
+// (ii). function declarations assigned - After Memory is allocated , then functions are need to be declared inside the code.
+// (iii). Variable declarations assigned - After functions are declared, Variables are required to declared also.
+// (iv). "this" binding created - last step is creating 'this' binding.
+
+// --> Execution phase: In this stage the code will be executed means all the functions which are written will be executed.Also, the code is executed line by line before converted into machine code in JS because it is an interpreted language.
+
+
 //Question No. 5 -  What is hoisting?
+
 // --> Hoisting is a default behaviour of javascript where all the variable and function declarations are moved to top.
 // (i). It is a concept which says that you should always declare and initialise all the variable in JS before using them.
 // (ii). If we will not initiate the variables (means giving or assigning the value to a variable) before using it, then it will throw errors. So to avoid such errors, we should follow the concept of Hoisting in JS.
 
+
 //Question No. 6 -  Difference between undefined vs not defined vs NaN.
+
 // (i). NaN in JS (Not a Number)
 // --> The NaN global property is a value representing Not-a-Number.
 // It means it represents those number which are mathematically invalid like (0/0).
@@ -55,7 +77,9 @@
 // (iii). not defined in JS
 // --> An error which is thrown every time when a variable is not declared with in the code.
 
+
 //Question No. 7 -  How many operators do we have in JS ?
+
 // --> In JS, We have six types of operators which are as follows :
 // (i). Arithmetic Operators - (%, -, +, *, /)
              let y = 5;
@@ -94,6 +118,11 @@
 
 
 //Question No. 8 -  Explain Local Scope, Block Scope, Functional Scope and Scope Chain in javascript.
+
+// -->In JavaScript, scope is the context in which variables are declared and can be accessed. The Three primary types of scope in JS are : 
+// (i). Global Scope: The widest scope available, where variables can be accessed from anywhere in the code. 
+// (ii). Local Scope: Variables are only accessible from within the block of code, function, or conditional statement in which they are defined.
+// (iii). Block Scope: Variables declared in block scope are confined to that block. Block statements, such as if conditions or for loops, don't create a new scope. 
 
 
 
