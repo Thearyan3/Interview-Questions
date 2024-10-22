@@ -123,6 +123,7 @@
 // (i). Global Scope: The widest scope available, where variables can be accessed from anywhere in the code. 
 // (ii). Local Scope: Variables are only accessible from within the block of code, function, or conditional statement in which they are defined.
 // (iii). Block Scope: Variables declared in block scope are confined to that block. Block statements, such as if conditions or for loops, don't create a new scope. 
+// --> Scope chain is a hierarchical structure that determines the order in which JavaScript looks for variables and functions. It means when a variable is accessed, JavaScript starts by searching for it in the current scope. If it's not found, JavaScript continues to search in the next outer scope, and so on, until it finds the variables or reaches the global scope.
 
 
 
