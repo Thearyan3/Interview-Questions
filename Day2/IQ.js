@@ -10,12 +10,18 @@
 // Here, name, age and class are keys and aryan, 20 and 2nd year are values.
 // the (name:aryan) pair is called the property and student is the object.
 
-//Question No. 2 - What are function?
 
-// -->
+//Question No. 2 - What are functions?
+
+// -->Functions are one of the fundamental building blocks in JavaScript. A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output. To use a function, you must define it somewhere in the scope from which you wish to call it.
+
+
 //Question No. 3 - What is an event loop and call stack.
 
-// -->
+// --> (i) CallStack - It is a data structure which keeps track of function calls in our program. Whenever we call a function for its execution, we are pushing it to the stack. It comes out of the stack when the execution is completed.
+// (ii) Event Loop - It has pretty specific work. It has responsibility to see whether the call-stack is empty and does the task queue contains pending task to process. If the call-stack is empty, it will push the task to the call-stack from the queue and the task gets processed.
+
+
 //Question No. 4 - What is the DOM?
 
 // -->The DOM represents a document with a logical tree. It means whenever the HTML code is converted into the JavaScript, it is converted in the form of a logical tree. Logical tree is basically a hierarchical structure that represents the parent-child relation between the elements of HTML. 
@@ -34,6 +40,15 @@
 
 
 //Question No. 6 - What are arrow functions?
+
+// -->An arrow function is a function with a shorter syntax. They are often assigned to variables, making them reusable. Arrow functions are also known as lambda functions in some other programming languages.
+// The working of Arrow Functions are as below: 
+// (i) Arrow funcitons without Parameters
+// (ii) Arrow funcitons with Multiple Parameters
+// (iii) Arrow funcitons with single Parameters
+// (iv) Arrow funcitons with default Parameters
+
+
 //Question No. 7 - What is the for-in loop in JavaScript? Give its syntax.
 
 // -->for-in loop - In each iteration of the loop, a key is assigned to the key variable. The loop continues for all object properties. Once you get keys, you can easily find their corresponding values. 
