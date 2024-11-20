@@ -24,8 +24,7 @@
 
 //Question No. 4 - What is the DOM?
 
-// -->The DOM represents a document with a logical tree. It means whenever the HTML code is converted into the JavaScript, it is converted in the form of a logical tree. Logical tree is basically a hierarchical structure that represents the parent-child relation between the elements of HTML. 
-// DOM allows us to change/Manipulate webpage content (HTML Elements).
+// -->The DOM represents a document with a logical tree. It means whenever the HTML code is converted into the JavaScript, it is converted in the form of a logical tree. Logical tree is basically a hierarchical structure that represents the parent-child relation between the elements of HTML.DOM allows us to change/Manipulate webpage content (HTML Elements).
 
 
 //Question No. 5 - Difference between undefined vs not defined vs NaN
