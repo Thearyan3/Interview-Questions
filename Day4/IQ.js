@@ -65,22 +65,30 @@ function showTime(){
 
 // Question No. 7 - What is callback hell?
 //-->Callback hell in JavaScript is a situation where multiple callbacks are nested inside a function, making the code difficult to read and maintain. It's also known as the "pyramid of doom" because the code's design resembles a pyramid. Callback hell often occurs when dealing with asynchronous operations, such as making API requests or handling file I/O. In these situations, one operation depends on the result of another. For example, consider the following code: 
-asyncOperation1(function(result1) {
-  asyncOperation2(result1, function(result2) {
-    asyncOperation3(result2, function(result3) {
-      asyncOperation4(result3, function(result4) {
-      });
-    });
-  });
-});
+// asyncOperation1(function(result1) {
+//   asyncOperation2(result1, function(result2) {
+//     asyncOperation3(result2, function(result3) {
+//       asyncOperation4(result3, function(result4) {
+//       });
+//     });
+//   });
+// });
 // In this example, each asynchronous operation is nested inside the callback of the previous operation. 
 // Callback hell can lead to bugs and debugging difficulties. 
 
 
 
-// Question No. 8 -What are arrow functions?
+// Question No. 8 - What are arrow functions?
+//-->Arrow functions in JavaScript are a concise way to write functions using the fat arrow syntax (=>): 
+// Syntax
+// Arrow functions use the fat arrow (=>) instead of the function keyword. For example : 
+const hello = () => { console.log("Hey Ninjas!" ); } 
+hello();
+
+
+
+// Question No. 8 - Give an example of async/await.
 //-->
-// Give an example of async/await
 // What is difference between null and undefined and where to use what?
 // Write code to explain map and filter in arrays
 // Given an array of 0's and 1's find out number of 0's
