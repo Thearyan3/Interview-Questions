@@ -59,8 +59,12 @@ function showTime(){
 
 
 // Question No. 6 - What is the purpose of async/await keywords?
+//-->The async/await keywords are used to simplify the syntax for consuming promise-based APIs. They make code more readable and easier to handle than promises. The async keyword indicates that a function returns a promise, and the await keyword is used before a call to a function that returns a promise. The await keyword ensures that the function waits for the promise to resolve. 
+
+
+
+// Question No. 7 - What is callback hell?
 //-->
-// What is callback hell
 // What is promise?
 // What are arrow functions?
 // Give an example of async/await
