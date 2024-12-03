@@ -1,5 +1,4 @@
 //Question No. 1 - What are objects in javascript?
-
 // -->In JavaScript, objects are variables that store collections of key-value pairs, which can include properties and methods. They are a core data structure that allows developers to group related data together and split code into logical pieces. 
 // Some characteristics of JavaScript objects are as follows :
 // (i). Properties :- Named values that describe an object's characteristics. For example, a cup's properties might include its color, design, weight, and material. 
@@ -9,9 +8,36 @@
 
 
 // Question No. 2 - What are function constructors?
+// -->In JavaScript, a function constructor is a special function that creates and initializes an object when it's created. A constructor function sets the initial values or properties of an object. When the new keyword is used to create an object, the constructor function is called. The constructor function creates a new object, assigns values to its properties, and returns the new object. 
+// A constructor function is defined like any other function, but it's usually named with an uppercase letter to distinguish it from regular functions. Inside the constructor function, the this keyword is used to refer to the object being created. Values are assigned to the object's properties using dot notation or bracket notation. JavaScript has built-in constructors for all native objects, such as new Object() and new Array(). 
 
-// -->
-// Give an example of inheritance using function constructor
+
+
+// Question No. 3 - Give an example of inheritance using function constructor.
+class Animal{
+    constructor(name){
+        this.name = name;
+    }
+    speak(){
+        console.log(`${name} makes a noise`);
+    }
+}
+
+class Dog extends Animal{
+    constructor(name, breed){
+        super(name)
+        this.breed;
+    }
+    speak(){
+        console.log(`${this.name} barks`)
+    }
+}
+
+const dog = new Dog('Labrador', 'Pitbull');
+dog.speak();
+
+
+
 // What is the use of setTimeout
 // What are promises and why do we need them?
 // What is the purpose of async/await keywords?
