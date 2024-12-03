@@ -38,8 +38,22 @@ dog.speak();
 
 
 
-// What is the use of setTimeout
-// What are promises and why do we need them?
+// Question No. 4 - What is the use of setTimeout?
+// -->JavaScript's setTimeout function is one of the most useful functions for working with asynchronicity in your code. It allows you to run a function after a certain amount of time has passed. This can be really useful for making sure that certain code doesn't run until after another piece of code has finished running.
+//For Ex : We can build a clock using setTimeout in JavaScript: 
+function showTime(){
+    var date = new Date();
+    var h = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    var time = h + ':' + m + ':' + s + '';
+    console.log(time);
+    setTimeout(showTime, 1000);
+}showTime();
+
+
+
+// Question No. 5 - What are promises and why do we need them?
 // What is the purpose of async/await keywords?
 // What is callback hell
 // What is promise?
