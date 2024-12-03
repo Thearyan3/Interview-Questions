@@ -134,7 +134,20 @@ deliverData();
 
 
 // Question No. 11 - Write code to explain map and filter in arrays.
-// Given an array of 0's and 1's find out number of 0's
+ function Inc_Arr(){
+     let incArr = [1, 2, 3, 4, 5];
+     console.log(incArr.map(a => a + 1));
+}
+Inc_Arr();
+ function uniqueColor(){
+     let M = [3, 2, 4, 1, 2, 3];
+         M.filter(colors => colors[0] )
+}
+uniqueColor();
+
+
+
+// Question No. 12 - Given an array of 0's and 1's find out number of 0's
 // Given an array find out total no. of odd and even nos.
 // Given a string find out number of vowels 
 // Write a code to create two objects with 2 properties each, one will be string and other will be an array. Create a function to check if all the elements of the arrays in both the objects are same
