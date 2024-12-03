@@ -160,6 +160,33 @@ console.log("The number of 0's in given array are :", count);
 
 
 // Question No. 13 - Given an array find out total no. of odd and even nos.
+let Num = [1, 2, 3, 4, 5, 6, 7];
+let evenCount = 0;
+let oddCount = 0;
+for(let j = 0; j < Num.length; j++){
+    if(Num[j] % 2 == 0){
+        evenCount++;
+    }else{
+        oddCount++
+    }
+}
+console.log("The no. of odd and even nos. are :", evenCount, oddCount);
 
-// Given a string find out number of vowels 
+
+
+// Question No. 14 - Given a string find out number of vowels.
+function count_Vowelsfunction(){
+    let str = "Prepbytes";
+    let vowels = "aeiouAEIOU";
+    let count2 = 0;
+    for (let i = 0; i < str.length; i++){
+       for (let j = 0; j < vowels.length; j++){
+       if(str[i] === vowels[j]){
+          count2++;
+          }
+       }
+    }
+    console.log("The total number of vowels in the given string are :",count2);
+    }
+    count_Vowelsfunction();
 // Write a code to create two objects with 2 properties each, one will be string and other will be an array. Create a function to check if all the elements of the arrays in both the objects are same
