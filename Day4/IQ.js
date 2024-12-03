@@ -87,10 +87,53 @@ hello();
 
 
 
-// Question No. 8 - Give an example of async/await.
-//-->
-// What is difference between null and undefined and where to use what?
-// Write code to explain map and filter in arrays
+// Question No. 9 - Give an example of async/await.
+let myPromise = new Promise(function(resolve, reject){
+    let success = true;
+    if(success){
+        resolve('Data Delievered');
+    }
+    else{
+        reject("Rejection to fetching Data");
+    }
+});
+console.log(myPromise);
+myPromise
+.then(function(result){
+    console.log(result);
+})
+.catch(function(error){
+    console.log(error);
+});
+async function deliverData(params){
+    try{
+        let result = await myPromise;
+        console.log(result);
+    }
+    catch(error){
+        console.log(error);
+    }
+}
+deliverData();
+
+
+
+// Question No. 10 - What is difference between null and undefined and where to use what?
+// --> Undefined = A variable that has not been assigned a value is of type undefined. By Default, When javascript wants to say that i don't know, it is denoted by undefined. Undefined has not to assigned to any value. It is undefined by default only.
+        // For Ex: let a;
+        // now a is undefined by default.
+//   null = The null value represents the intentional absence of any object value. It is a keyword in JavaScript.It has to be explicitly assigned.
+    // for Ex: let a = null;
+                // a holds the value of null
+
+// Use of null = Whenever a we create a new program and we want to initialize a variable and assign some value to it but we don't know the exact value at that time so we use null in that case.
+// for Ex: let year = null;
+//  year = 2000;
+// Use of undefined = It has not to be used anywhere. It is by default thing.
+
+
+
+// Question No. 11 - Write code to explain map and filter in arrays.
 // Given an array of 0's and 1's find out number of 0's
 // Given an array find out total no. of odd and even nos.
 // Given a string find out number of vowels 
