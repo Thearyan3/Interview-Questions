@@ -189,4 +189,7 @@ function count_Vowelsfunction(){
     console.log("The total number of vowels in the given string are :",count2);
     }
     count_Vowelsfunction();
-// Write a code to create two objects with 2 properties each, one will be string and other will be an array. Create a function to check if all the elements of the arrays in both the objects are same
+
+
+
+// Question No. 15 - Write a code to create two objects with 2 properties each, one will be string and other will be an array. Create a function to check if all the elements of the arrays in both the objects are same.
