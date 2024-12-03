@@ -54,7 +54,12 @@ function showTime(){
 
 
 // Question No. 5 - What are promises and why do we need them?
-// What is the purpose of async/await keywords?
+//-->Promises provide a robust way to wrap the result of asynchronous work, overcoming the problem of deeply nested callbacks. The Promise object takes a callback function as a parameter, which, in turn, takes two parameters, resolve and reject. The promise is either fulfilled or rejected. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
+
+
+
+// Question No. 6 - What is the purpose of async/await keywords?
+//-->
 // What is callback hell
 // What is promise?
 // What are arrow functions?
